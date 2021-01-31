@@ -1,0 +1,56 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+}
+body {
+  font-family: "Lora", serif;
+  color: cyan;
+  background-color: rgba(232, 236, 241, 1);
+  display: flex;
+  align-items: center;
+}
+.containers {
+  background-color: white;
+  border-radius: 20px;
+  border: 3px solid cyan;
+  width: 50%;
+  height: 650px;
+  margin-top: 5%;
+  min-width: 500px;
+}
+
+#display {
+  background-color: cyan;
+  color: blue;
+  width: 70%;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+#header {
+  margin-top: 20px;
+}
+.watap {
+  display: grid;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: 150px 150px 150px;
+  justify-content: center;
+}
+.footer {
+  font-size: 20px;
+  margin: 30px;
+}
+.drum-pad {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 40px 0px 20px 0px;
+  border-radius: 15px;
+}
+.drum-pad:hover {
+  background-color: rgba(191, 191, 191, 1);
+  width: 140px;
+  height: 140px;
+}
